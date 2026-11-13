@@ -1,0 +1,20 @@
+"""Fig. 8: measured mean hold time of UET-RIS vs the H* ~ v^(-2/3) scaling law (Proposition 2)."""
+import json, numpy as np, matplotlib
+matplotlib.use("Agg"); import matplotlib.pyplot as plt
+plt.rcParams.update({"font.family": "DejaVu Serif", "font.size": 10, "axes.grid": True, "grid.alpha": 0.3})
+R = json.load(open("results/results.json"))
+v = np.array([10, 15, 20, 25, 30, 35, 40.]); H = np.array([1 / R["speed"][str(int(x))]["uet"]["recfg"] for x in v])
+p = np.polyfit(np.log(v), np.log(H), 1)
+Ns = np.array([64, 144, 256, 576, 1024]); HN = np.array([1 / R["size"][str(int(np.sqrt(n)))]["uet"]["recfg"] for n in Ns])
+fig, ax = plt.subplots(1, 2, figsize=(8.4, 3.5))
+ax[0].loglog(v, H, "o", color="#d62728", label="UET-RIS (measured)")
+ax[0].loglog(v, np.exp(p[1]) * v ** p[0], "-", color="#d62728", lw=1, label=f"LS fit, slope = {p[0]:.2f}")
+ax[0].loglog(v, H[0] * (v / v[0]) ** (-2 / 3), "k--", lw=1, label="Prop. 2: slope = -2/3")
+ax[0].set_xlabel("Vehicle speed (m/s)"); ax[0].set_ylabel("Mean hold time (frames)"); ax[0].legend(fontsize=8)
+ax[0].set_xticks(v); ax[0].set_xticklabels([str(int(x)) for x in v]); ax[0].set_title("(a)", fontsize=10)
+ax[1].semilogx(Ns, HN, "s-", color="#d62728", label="UET-RIS (measured), 30 m/s")
+ax[1].axvspan(200, 1200, color="#cfe0f3", alpha=0.5, label="drift-dominated regime")
+ax[1].set_xlabel("Number of RIS elements N"); ax[1].set_ylabel("Mean hold time (frames)")
+ax[1].set_xticks(Ns); ax[1].set_xticklabels([str(n) for n in Ns]); ax[1].legend(fontsize=8); ax[1].set_title("(b)", fontsize=10)
+plt.tight_layout(); plt.savefig("figures/fig8_scaling_law.png", dpi=300)
+print("slope", p[0], "H", np.round(H, 2), "HN", np.round(HN, 2))

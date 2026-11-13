@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "UET-RIS: Regret-Triggered and Batched RIS Reconfiguration for Real-Time ISAC Vehicular Networks (simulation code)"
+authors:
+  - family-names: "Arul Dalton"
+    given-names: "G."
+    affiliation: "Department of Computer Science and Engineering, Saveetha Engineering College, Chennai, India"
+    email: "aruldalton@saveetha.ac.in"
+    orcid: "https://orcid.org/0000-0002-5981-7176"
+  - family-names: "Mani"
+    given-names: "S. V. J."
+    affiliation: "Department of Computer Science Engineering and Cyber Security, Saveetha Engineering College, Chennai, India"
+    email: "manisvj@saveetha.ac.in"
+version: "1.0.0"
+date-released: "2026-11-13"
+license: MIT
+repository-code: "https://github.com/iitrky/UET-RIS-ISAC"
+keywords:
+  - reconfigurable intelligent surface
+  - integrated sensing and communication
+  - vehicle-to-infrastructure
+  - event-triggered control
+  - competitive analysis
+preferred-citation:
+  type: article
+  title: "When to Reconfigure the Surface? Regret-Triggered and Batched RIS Reconfiguration for Real-Time ISAC Vehicular Networks"
+  authors:
+    - family-names: "Arul Dalton"
+      given-names: "G."
+    - family-names: "Mani"
+      given-names: "S. V. J."
+  year: 2026
+  status: submitted

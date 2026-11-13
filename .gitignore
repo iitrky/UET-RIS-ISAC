@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+quick_check/
+*.log
+.DS_Store
+.ipynb_checkpoints/
