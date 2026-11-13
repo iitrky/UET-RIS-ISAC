@@ -1,8 +1,8 @@
-# UET-RIS: Regret-Triggered and Batched RIS Reconfiguration for Real-Time ISAC Vehicular Networks
+# UET-RIS: Regret Triggered RIS Reconfiguration for ISAC Vehicular Networks
 
 Official simulation code for the paper
 
-> G. Arul Dalton and S. V. J. Mani, "When to Reconfigure the Surface? Regret-Triggered and Batched RIS Reconfiguration for Real-Time ISAC Vehicular Networks," manuscript submitted for publication, 2026.
+> G. Arul Dalton and S. V. J. Mani, "Regret Triggered RIS Reconfiguration for ISAC Vehicular Networks," manuscript submitted for publication, 2026.
 
 The repository reproduces **every figure and every number** reported in the paper: Figs. 1–10 and the numerical results in Tables 5–6.
 
@@ -147,7 +147,7 @@ If you use this code, please cite the paper (the BibTeX entry will be updated on
 ```bibtex
 @article{dalton2026uetris,
   author  = {Arul Dalton, G. and Mani, S. V. J.},
-  title   = {When to Reconfigure the Surface? Regret-Triggered and Batched {RIS} Reconfiguration for Real-Time {ISAC} Vehicular Networks},
+  title   = {Regret Triggered {RIS} Reconfiguration for {ISAC} Vehicular Networks},
   journal = {Manuscript submitted for publication},
   year    = {2026}
 }
@@ -160,3 +160,5 @@ If you use this code, please cite the paper (the BibTeX entry will be updated on
 Released under the MIT licence (see `LICENSE`).
 
 Corresponding author: **G. Arul Dalton**, Department of Computer Science and Engineering, Saveetha Engineering College, Chennai, India. aruldalton@saveetha.ac.in · ORCID [0000-0002-5981-7176](https://orcid.org/0000-0002-5981-7176)
+
+Co-author: **S. V. J. Mani**, Department of Computer Science Engineering and Cyber Security, Saveetha Engineering College, Chennai, India. manisvj@saveetha.ac.in · ORCID [0009-0008-0957-6301](https://orcid.org/0009-0008-0957-6301)

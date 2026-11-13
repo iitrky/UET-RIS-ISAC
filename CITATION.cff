@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated paper."
-title: "UET-RIS: Regret-Triggered and Batched RIS Reconfiguration for Real-Time ISAC Vehicular Networks (simulation code)"
+title: "UET-RIS: Regret Triggered RIS Reconfiguration for ISAC Vehicular Networks (simulation code)"
 authors:
   - family-names: "Arul Dalton"
     given-names: "G."
@@ -11,6 +11,7 @@ authors:
     given-names: "S. V. J."
     affiliation: "Department of Computer Science Engineering and Cyber Security, Saveetha Engineering College, Chennai, India"
     email: "manisvj@saveetha.ac.in"
+    orcid: "https://orcid.org/0009-0008-0957-6301"
 version: "1.0.0"
 date-released: "2026-11-13"
 license: MIT
@@ -23,7 +24,7 @@ keywords:
   - competitive analysis
 preferred-citation:
   type: article
-  title: "When to Reconfigure the Surface? Regret-Triggered and Batched RIS Reconfiguration for Real-Time ISAC Vehicular Networks"
+  title: "Regret Triggered RIS Reconfiguration for ISAC Vehicular Networks"
   authors:
     - family-names: "Arul Dalton"
       given-names: "G."
