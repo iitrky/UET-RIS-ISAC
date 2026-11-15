@@ -13,6 +13,11 @@ authors:
     email: "manisvj@saveetha.ac.in"
     orcid: "https://orcid.org/0009-0008-0957-6301"
 version: "1.0.0"
+doi: "10.5281/zenodo.24265982"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24265982"
+    description: "Zenodo archive of release v1.0.0"
 date-released: "2026-11-13"
 license: MIT
 repository-code: "https://github.com/iitrky/UET-RIS-ISAC"

@@ -1,5 +1,7 @@
 # UET-RIS: Regret Triggered RIS Reconfiguration for ISAC Vehicular Networks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24265982.svg)](https://doi.org/10.5281/zenodo.24265982)
+
 Official simulation code for the paper
 
 > G. Arul Dalton and S. V. J. Mani, "Regret Triggered RIS Reconfiguration for ISAC Vehicular Networks," manuscript submitted for publication, 2026.
@@ -150,6 +152,20 @@ If you use this code, please cite the paper (the BibTeX entry will be updated on
   title   = {Regret Triggered {RIS} Reconfiguration for {ISAC} Vehicular Networks},
   journal = {Manuscript submitted for publication},
   year    = {2026}
+}
+```
+
+To cite this code specifically (archived release v1.0.0):
+
+```bibtex
+@software{dalton2026uetris_code,
+  author    = {Arul Dalton, G. and Mani, S. V. J.},
+  title     = {{UET-RIS-ISAC}: Simulation code for regret triggered {RIS} reconfiguration in {ISAC} vehicular networks},
+  version   = {v1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24265982},
+  url       = {https://doi.org/10.5281/zenodo.24265982}
 }
 ```
 
